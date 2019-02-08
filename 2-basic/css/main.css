@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "feather";
+    src: url("../../3-fonts/feather/feather-webfont.eot?t=1501841394106");
+    /* IE9*/
+    src: url("../../3-fonts/feather/feather-webfont.eot?t=1501841394106#iefix") format("embedded-opentype"), url("../../3-fonts/feather/feather-webfont.woff?t=1501841394106") format("woff"), url("../../3-fonts/feather/feather-webfont.ttf?t=1501841394106") format("truetype"), url("../../3-fonts/feather/feather-webfont.svg?t=1501841394106#feather") format("svg");
+    /* iOS 4.1- */
+}
+
+.bg-blue{
+  background: #004094 !important;
+}
+
+.bg-blue-dark{
+  background: #013179 !important
+}
+
+.bg-white{
+  background: white;
+}
+
+.arrow-teste{
+  position: absolute;
+  top: -6px;
+  left: 12px;
+  display: inline-block;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid rgba(0, 40, 100, 0.12);
+  border-left: 5px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.header-fixed{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+a.text-normal{
+  color: #495057;
+}
+a.text-normal:hover{
+  text-decoration: none !important;
+}
+a.text-normal:hover h4{
+  text-decoration: underline !important;
+}
+a.text-normal:hover .card{
+  box-shadow: 0 0 8px rgba(0,0,0,.2);
+  transition: all 0.1s ease-in-out;
+}
