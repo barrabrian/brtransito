@@ -49,3 +49,9 @@ a.text-normal:hover .card{
   box-shadow: 0 0 8px rgba(0,0,0,.2);
   transition: all 0.1s ease-in-out;
 }
+
+h4.alt-h{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

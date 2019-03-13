@@ -89,4 +89,22 @@ $(document).ready(function (){
     }
   });
 
+  $("#tab5_D").on('click', function(e) {
+    e.preventDefault();
+    if (activetab !== "tab5_D") {
+      $("#t_panel5").addClass("d-block show");
+      $("#tab5_D .card").removeClass("bg-gray-lightest");
+      $("#"+activepanel).removeClass("d-block show");
+      $("#"+activetab+" .card").addClass("bg-gray-lightest");
+      activetab = "tab5_D";
+      activepanel = "t_panel5";
+    }
+  });
+
+  $(".alt-h").css({'height':($("#tab4_D .card").height()+'px')});
+
+  $( window ).resize(function() {
+    $(".alt-h").css({'height':($("#tab4_D .card").height()+'px')});
+  });
+
 });
