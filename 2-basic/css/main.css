@@ -45,7 +45,7 @@ a.text-normal:hover{
 a.text-normal:hover h4{
   text-decoration: underline !important;
 }
-a.text-normal:hover .card{
+a.text-normal:hover .card, .card.h-shadow:hover{
   box-shadow: 0 0 8px rgba(0,0,0,.2);
   transition: all 0.1s ease-in-out;
 }
@@ -54,4 +54,12 @@ h4.alt-h{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.accordion .card{
+  border-radius: 3px !important;
+}
+
+.card .collapsed{
+  background: #f3f4f5 !important;
 }
